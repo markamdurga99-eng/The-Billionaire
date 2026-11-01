@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2B2" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#8C6200" />
+    </linearGradient>
+    <radialGradient id="darkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1A202C" />
+      <stop offset="100%" stop-color="#07090D" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#darkGlow)" stroke="#D4AF37" stroke-width="8"/>
+
+  <!-- Golden Crown -->
+  <path d="M128 320L100 180L190 230L256 140L322 230L412 180L384 320H128Z" fill="url(#goldGradient)" filter="drop-shadow(0 10px 15px rgba(212,175,55,0.4))"/>
+  
+  <!-- Crown Base Bar -->
+  <rect x="128" y="336" width="256" height="28" rx="14" fill="url(#goldGradient)"/>
+
+  <!-- Rupee Symbol in Center -->
+  <text x="256" y="275" font-family="sans-serif" font-size="80" font-weight="900" fill="#0B0C10" text-anchor="middle">₹</text>
+  
+  <!-- Small jewel dots -->
+  <circle cx="100" cy="180" r="14" fill="#FFF2B2"/>
+  <circle cx="256" cy="140" r="16" fill="#FFF2B2"/>
+  <circle cx="412" cy="180" r="14" fill="#FFF2B2"/>
+</svg>

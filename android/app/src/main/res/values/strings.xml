@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Zero to Crorepati</string>
+    <string name="title_activity_main">Zero to Crorepati</string>
+    <string name="package_name">com.zerotocrorepati.app</string>
+    <string name="custom_url_scheme">com.zerotocrorepati.app</string>
+</resources>

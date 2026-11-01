@@ -1,0 +1,6 @@
+{
+  "name": "Zero to Crorepati - Business Learning App",
+  "description": "₹200 प्रतिदिन से ₹1 करोड़ की संपत्ति बनाने तक का सफर - भारत के हर नागरिक के लिए शून्य से व्यापार और वित्तीय स्वतंत्रता का संपूर्ण ऐप।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

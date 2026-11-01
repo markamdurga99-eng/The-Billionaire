@@ -1,0 +1,12 @@
+{
+  "appId": "com.zerotocrorepati.app",
+  "appName": "Zero to Crorepati",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

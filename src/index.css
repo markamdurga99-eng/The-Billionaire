@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Rozha One', 'Yantramanav', serif;
+    --font-body: 'Plus Jakarta Sans', 'Yantramanav', sans-serif;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Yantramanav', sans-serif;
+    background-color: #08090c;
+    color: #f1f3f9;
+  }
+}
+
+/* Custom Gold Glow & Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7df94 0%, #d4af37 50%, #aa771c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #f7df94 0%, #d4af37 60%, #b8860b 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+}
+
+.gold-border-glow {
+  border-color: rgba(212, 175, 55, 0.35);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+
+.dark-card {
+  background: #11141b;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.dark-card-hover {
+  transition: all 0.25s ease;
+}
+.dark-card-hover:hover {
+  background: #151922;
+  border-color: rgba(212, 175, 55, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #262c38;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
